@@ -5,6 +5,8 @@ def prime?(i)
     for x in 2..i
       if i % x == 0
         return true
+      else
+        return false
       end
     end
     return true
