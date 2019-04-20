@@ -4,9 +4,9 @@ def prime?(i)
   else
     for x in 2..i
       if i % x == 0
-        return true
-      else
         return false
+      else
+        return true
       end
     end
     return true
