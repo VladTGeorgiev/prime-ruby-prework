@@ -1,5 +1,5 @@
 def prime?(i)
-  if i <= 1
+  if i < 0 || i == 0 || i == 1
     return false
   else
     for x in 2..i
