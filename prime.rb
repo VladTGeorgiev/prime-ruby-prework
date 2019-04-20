@@ -4,7 +4,7 @@ def prime?(i)
   else
     for x in 2..i
       if i % x != 0
-        return false
+        return true
       end
     end
     return true
